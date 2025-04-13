@@ -49,7 +49,7 @@ local function getClosestTargetPart()
 
     for _, player in ipairs(Players:GetPlayers()) do
         if player ~= LocalPlayer and isEnemy(player) and player.Character then
-            local part = player.Character:FindFirstChild("HumanoidRootPart")
+            local part = player.Character:FindFirstChild("Head")
             if part and isVisible(part) then
                 local screenPos, visible = Camera:WorldToViewportPoint(part.Position)
                 if visible then
