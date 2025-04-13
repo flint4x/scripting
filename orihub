@@ -6,7 +6,7 @@ local Camera = workspace.CurrentCamera
 local LocalPlayer = Players.LocalPlayer
 
 -- Aimbot Config
-local aimSmoothness = 0.40
+local aimSmoothness = 0.15
 
 -- ESP Config
 local baseBoxSize = Vector2.new(120, 200)
